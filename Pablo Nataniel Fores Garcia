@@ -1,0 +1,5 @@
+**Diferencias entre "git merge" y "git merge --no-ff"**
+
+**Merge** es la forma en que Git vuelve a armar dos caminos separados. El comando **git merge** le permite tomar las líneas independientes de desarrollo creadas por **git branch** e integrarlas en una sola rama.
+
+La opción **--no-ff** hace que no se produzca una fusión de avance rápido (fast fordward) y que siempre se creará un nuevo punto de **commit**. Esto puede ser necesario si quiere que **git** mantenga un historial de ramas.
